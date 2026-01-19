@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="AnvarovLogBot — инструкция для пользователей: Telegram Business, удалённые/изменённые сообщения, одноразовые медиа и подписка." />
+
+  <title>AnvarovLogBot — Как пользоваться ботом</title>
+
+  <!-- Google Font: Gravitas One -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Декоративный слой бликов -->
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="На главную">
+        <div class="avatar-wrapper avatar-wrapper--small" data-initials="AL">
+          <img class="brand__avatar" src="owner_avatar.png" alt="AnvarovLogBot" width="40" height="40" onerror="this.style.display='none'" />
+        </div>
+        <span class="brand__text"><strong>AnvarovLogBot</strong></span>
+      </a>
+
+      <nav class="nav" aria-label="Навигация">
+        <a href="#connect">Подключение</a>
+        <a href="#features">Функции</a>
+        <a href="#subscription">Подписка</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <div class="pill">Инструкция для пользователей Telegram Business</div>
+
+          <h1>AnvarovLogBot</h1>
+
+          <p class="lead">
+            Бот помогает не терять важное: <strong>изменённые сообщения</strong> (бесплатно),
+            а по подписке — <strong>удалённые</strong> и <strong>одноразовые медиа</strong>.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="https://t.me/AnvarovLogBot" target="_blank" rel="noopener">Открыть бота</a>
+            <a class="btn btn--secondary" href="https://t.me/AnvarovLogBot" target="_blank" rel="noopener">Купить подписку</a>
+            <a class="btn btn--ghost" href="#connect">Как подключить</a>
+          </div>
+
+          <div class="note">
+            <strong>Важно:</strong> бот работает через <strong>Telegram Business</strong>.
+            Сначала подключи его в Business — иначе события не будут приходить.
+          </div>
+        </div>
+
+        <div class="hero__cards">
+          <!-- КАНАЛ -->
+          <article class="card">
+            <div class="card__row">
+              <div class="avatar-wrapper" data-initials="AN">
+                <img src="channel_avatar.png" alt="Аватар канала @AnvarovNews" width="56" height="56" class="avatar" onerror="this.style.display='none'" />
+              </div>
+              <div class="card__meta">
+                <div class="card__title">Канал новостей</div>
+                <div class="card__subtitle">@AnvarovNews</div>
+              </div>
+            </div>
+            <p class="card__text">Обновления, изменения, важные объявления по боту.</p>
+            <a class="btn btn--small" href="https://t.me/AnvarovNews" target="_blank" rel="noopener">Перейти</a>
+          </article>
+
+          <!-- БОТ -->
+          <article class="card">
+            <div class="card__row">
+              <div class="avatar-wrapper" data-initials="AB">
+                <img src="bot_avatar.png" alt="Аватар бота @AnvarovLogBot" width="56" height="56" class="avatar" onerror="this.style.display='none'" />
+              </div>
+              <div class="card__meta">
+                <div class="card__title">Бот</div>
+                <div class="card__subtitle">@AnvarovLogBot</div>
+              </div>
+            </div>
+            <p class="card__text">Меню, подписка, подсказки и уведомления.</p>
+            <a class="btn btn--small" href="https://t.me/AnvarovLogBot" target="_blank" rel="noopener">Открыть</a>
+          </article>
+
+          <!-- СОЗДАТЕЛЬ -->
+          <article class="card">
+            <div class="card__row">
+              <div class="avatar-wrapper" data-initials="MK">
+                <img src="creator_avatar.png" alt="Создатель @mkhmmm_1" width="56" height="56" class="avatar" onerror="this.style.display='none'" />
+              </div>
+              <div class="card__meta">
+                <div class="card__title">Создатель</div>
+                <div class="card__subtitle">@mkhmmm_1</div>
+              </div>
+            </div>
+            <p class="card__text">Поддержка, вопросы, предложения.</p>
+            <a class="btn btn--small" href="https://t.me/mkhmmm_1" target="_blank" rel="noopener">Написать</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="connect">
+      <div class="container">
+        <div class="section__head">
+          <h2>1) Подключение бота в Telegram Business</h2>
+          <p>Это обязательный шаг. Без него бот не увидит бизнес-события.</p>
+        </div>
+
+        <div class="steps">
+          <div class="step">
+            <div class="step__num">1</div>
+            <div class="step__body">
+              <h3>Открой настройки</h3>
+              <p><strong>Настройки</strong> → <strong>Telegram Business</strong></p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step__num">2</div>
+            <div class="step__body">
+              <h3>Зайди в "Чат-боты"</h3>
+              <p><strong>Чат-боты</strong> → <strong>Добавить бота</strong></p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step__num">3</div>
+            <div class="step__body">
+              <h3>Добавь бота</h3>
+              <p>Найди и подключи <a href="https://t.me/AnvarovLogBot" target="_blank" rel="noopener"><strong>@AnvarovLogBot</strong></a></p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step__num">4</div>
+            <div class="step__body">
+              <h3>Открой меню</h3>
+              <p>Перейди в ЛС бота и нажми <code>/menu</code>.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hint">
+          <strong>Совет:</strong> после покупки подписки зайди в бота и открой <code>/menu</code>, чтобы увидеть статус.
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="features">
+      <div class="container">
+        <div class="section__head">
+          <h2>2) Функции — как пользоваться</h2>
+          <p>Коротко и по делу.</p>
+        </div>
+
+        <div class="grid">
+          <article class="feature">
+            <div class="feature__icon">✏️</div>
+            <h3>Изменённые сообщения</h3>
+            <p>
+              Если собеседник изменил текст — бот пришлёт <strong>"Было / Стало"</strong>.
+              <span class="tag tag--free">Бесплатно</span>
+            </p>
+          </article>
+
+          <article class="feature">
+            <div class="feature__icon">🗑</div>
+            <h3>Удалённые сообщения</h3>
+            <p>
+              По подписке бот показывает <strong>содержимое</strong>.
+              Без подписки — покажет <strong>кто удалил</strong> и кнопку "Посмотреть".
+              <span class="tag tag--pro">Подписка</span>
+            </p>
+          </article>
+
+          <article class="feature">
+            <div class="feature__icon">🔥</div>
+            <h3>Одноразовые медиа</h3>
+            <p>
+              Чтобы сохранить one-time фото/видео/ГС/кружок:
+              <strong>сделай reply</strong> на это медиа и отправь любой текст.
+              <span class="tag tag--pro">Подписка</span>
+            </p>
+          </article>
+        </div>
+
+        <div class="howto">
+          <h3>Как сохранить одноразовое (пример)</h3>
+          <ol class="list">
+            <li>Получаешь одноразовое медиа</li>
+            <li>Делаешь <strong>Reply</strong> на него</li>
+            <li>Пишешь любой текст (например ".")</li>
+            <li>Бот присылает сохранённый файл</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="subscription">
+      <div class="container">
+        <div class="section__head">
+          <h2>3) Подписка</h2>
+          <p>Подписка открывает просмотр удалённых и одноразовых медиа.</p>
+        </div>
+
+        <div class="sub">
+          <div class="sub__left">
+            <div class="sub__title">Что даёт подписка</div>
+            <ul class="list">
+              <li><strong>Показ содержимого</strong> удалённых сообщений</li>
+              <li><strong>Сохранение</strong> одноразовых фото/видео/ГС/кружков</li>
+            </ul>
+
+            <div class="sub__cta">
+              <a class="btn btn--primary" href="https://t.me/AnvarovLogBot" target="_blank" rel="noopener">Открыть бота</a>
+              <a class="btn btn--secondary" href="https://t.me/AnvarovLogBot" target="_blank" rel="noopener">Купить подписку</a>
+            </div>
+
+            <div class="muted">Покупка/управление подпиской — внутри бота через <code>/menu</code>.</div>
+          </div>
+
+          <div class="sub__right">
+            <div class="sub__box">
+              <div class="sub__boxTitle">Если подписки нет</div>
+              <p class="muted">
+                На удалённые/одноразовые бот пришлёт: кто удалил/отправил и кнопку <strong>"Посмотреть"</strong>, ведущую к оплате.
+              </p>
+            </div>
+
+            <div class="sub__box">
+              <div class="sub__boxTitle">Если подписка активна</div>
+              <p class="muted">Бот показывает <strong>контент</strong> и присылает сохранённые файлы.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="faq">
+      <div class="container">
+        <div class="section__head">
+          <h2>FAQ</h2>
+          <p>Ответы на частые вопросы.</p>
+        </div>
+
+        <details class="faq" open>
+          <summary>Я купил подписку. Что дальше?</summary>
+          <div class="faq__body">
+            <p>
+              Открой <a href="https://t.me/AnvarovLogBot" target="_blank" rel="noopener"><strong>@AnvarovLogBot</strong></a>
+              → нажми <code>/menu</code> → проверь "Моя подписка".
+            </p>
+          </div>
+        </details>
+
+        <details class="faq">
+          <summary>Ничего не приходит</summary>
+          <div class="faq__body">
+            <ul class="list">
+              <li>Проверь, что бот подключён в <strong>Telegram Business</strong>.</li>
+              <li>Проверь, что переписка идёт через Business-режим.</li>
+              <li>Проверь подписку (если хочешь видеть удалённые/одноразовые).</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="faq">
+          <summary>Куда писать по вопросам?</summary>
+          <div class="faq__body">
+            <p>
+              Создатель: <a href="https://t.me/mkhmmm_1" target="_blank" rel="noopener"><strong>@mkhmmm_1</strong></a><br/>
+              Канал новостей: <a href="https://t.me/AnvarovNews" target="_blank" rel="noopener"><strong>@AnvarovNews</strong></a>
+            </p>
+          </div>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <strong>AnvarovLogBot</strong>
+        <div class="muted">Новости: <a href="https://t.me/AnvarovNews" target="_blank" rel="noopener">@AnvarovNews</a></div>
+      </div>
+      <div class="muted">
+        Создатель: <a href="https://t.me/mkhmmm_1" target="_blank" rel="noopener">@mkhmmm_1</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
